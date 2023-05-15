@@ -1,0 +1,21 @@
+Author:
+ - Rafael Tavares Rondão
+ - Vinicius Aldeia Zanquini
+
+Implementação do método simplex utilizando a regra de Bland.
+
+Uso:
+
+O programa le um arquivo de entrada com o problema.
+O arquivo deve se chamar \"entrada.txt\" e estar no mesmo diretorio do programa.
+O formato do arquivo deve ser como o abaixo.
+
+n m
+[max/min] c1 c2 c3 ... cn
+c11 c12 c13 ... c1n [<=/>=] b1
+...
+cm1 cm2 cm3 ... cmn [<=/>=] bm
+
+Onde 'n' eh o numero de variaveis e 'm' eh o numero de restricoes.
+Na segunda linha eh a funcao objetivo, e ci eh o coeficiente da variavel xi.
+Nas linhas subsequentes sao as restricoes, e cij eh o coeficiente da variavel xj na restricao i.
